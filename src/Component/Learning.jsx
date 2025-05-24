@@ -176,24 +176,24 @@ const Learning = () => {
   };
 
   return (
-    <div className="m-auto w-[28rem] mt-0 h-[53rem] border-2 border-black md:w-[45rem] md:bg-amber-600 md:h-[39.5rem]">
-      <h1 className="text-4xl font-bold ml-[9rem] mt-[1rem] md:ml-[12rem]">
+    <div className="m-auto w-[28rem] mt-0 h-[54rem] border-2 border-black md:w-[45rem] md:bg-amber-600 md:h-[39.5rem]">
+      <h1 className="text-4xl font-bold ml-[5rem] mt-[1rem] md:ml-[12rem]">
         {/* {" "} */}
         My Learning App
       </h1>
-      <div className="w-[20rem] h-[20rem] border-8 flex mt-[1rem] justify-center rounded-full m-auto md:rounded-none">
+      <div className="w-[20rem] h-[20rem] border-8 flex mt-[2rem] justify-center rounded-full m-auto md:rounded-none">
         <img
           className="w-[18rem] h-[18rem] rounded-full bg-white mt-1 md:rounded-none"
           src={items[first].Image}
           alt="no internet connection"
         />
       </div>
-      <div className="w-[15rem] m-auto h-[6rem] mt-[1rem] grid justify-center">
+      <div className="w-[15rem] m-auto h-[6rem] mt-[3rem] grid justify-center">
         <h1 className=" font-bold text-4xl ml-[4rem]">{items[first].letter}</h1>
         <h1 className=" font-bold text-4xl">{items[first].word}</h1>
       </div>
 
-      <div className="mt-[2.5rem] w-[26rem] m-auto h-[4rem] border-black">
+      <div className="mt-[3rem] w-[26rem] m-auto h-[4rem] border-black">
         <button
           className="w-[10.5rem] h-[4.5rem] text-xl font-medium rounded-2xl bg-black text-gray-100 mr-[2rem] "
           onClick={previous}>
